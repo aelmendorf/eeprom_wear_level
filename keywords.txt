@@ -1,0 +1,33 @@
+#######################################
+# Syntax Coloring Map For eeprom_wear_level
+#######################################
+# Class
+#######################################
+
+eeprom_wear_level	KEYWORD1
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+eeprom_wear_level	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	        KEYWORD2
+get	            KEYWORD2
+put 	        KEYWORD2
+format_all      KEYWORD2
+format_range    KEYWORD2
+print_control   KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+WRITE_DEFAULT   LITERAL1
+WRITE_UPPER     LITERAL1
+WRITE_LOWER     LITERAL1
+ADDRESS_MIN     LITERAL1
