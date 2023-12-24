@@ -1,3 +1,28 @@
+/* .+
+
+.context    : eeprom_wear_level EEPROM wear leveling library
+.title      : eeprom_wear_level definition  
+.kind       : c++ source
+.author     : Andrew Elmendorf <aelmendorf234@gmail.com>
+.site       : South Carolina - USA
+.creation   : 24-Dec-2023
+.copyright  : (c) 2023 Andrew Elmendorf
+.license    : GNU Lesser General Public License
+
+.description
+    eeprom_wear_level extends EEPROM life by dsitributing data writes over
+    a specified range
+
+.warning
+    startAddr=0 is not allowed
+    blockNumber must be 3x the data size
+
+.compile_options
+
+
+.- */
+
+
 #pragma once
 #include <EEPROM.h>
 
