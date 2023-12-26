@@ -49,7 +49,7 @@ public:
         this->startAddr=start<ADDRESS_MIN ? 1:start;
         this->blockSize=sizeof(data)+2;  //1byte for mark, 1byte for writeCount, xbytes for data
 
-        this->blockNumber=(blockNum>=(this->blockSize*3)) ? blockNum:(this->blockSize*3);
+        this->blockNumber=(blockNum>=2) ? blockNum:2;
         this->startAddr=start;
         //fource write in range
         this->writeLimit=(wLimit<=WRITE_UPPER && this->writeLimit>=WRITE_LOWER) ? wLimit:WRITE_DEFAULT;
